@@ -37,8 +37,8 @@ const ServicesSection: React.FC<ServicesSectionProps> = (
         side="right"
       />
       <Section
-        title="Gioielli personalizzati"
-        content="Vuoi un gioiello unico? Collaboriamo con artisti del territorio per creare pezzi esclusivi su misura, combinando design originali con la qualità dell’argento."
+        title="Bomboniere personalizzate e non solo..."
+        content="Rendi speciale ogni evento con una bomboniera unica. Personalizziamo ogni dettaglio per creare un regalo che rimanga nel tempo. Materiali di qualità e cura artigianale per un tocco esclusivo."
         side="left"
       />
     </div>

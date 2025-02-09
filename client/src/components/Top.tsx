@@ -1,5 +1,5 @@
 import React from "react";
-import Citations from "./CItations";
+import Citations from "./Citations";
 
 interface TopProps {
   /* propName: propType */
@@ -11,7 +11,7 @@ const Top: React.FC<TopProps> = (
   }
 ) => {
   return (
-    <div className="h-fit w-full flex justify-center flex-col text-center py-20 md:pt-40 ">
+    <div id="top-section" className="h-fit w-full flex justify-center flex-col text-center py-20 md:pt-40 ">
       <h1 className="text-5xl sm:text-7xl  md:text-8xl font-serif lg:text-9xl  ">
         Argentomania
       </h1>
