@@ -4,6 +4,7 @@ import Top from "../components/Top";
 import MidSection from "../components/MidSections";
 import ServicesSection from "../components/ServicesSection";
 import Footer from "../components/Footer";
+import CookieBanner from "../components/CookieBanner";
 
 interface MainPageProps {
   /* propName: propType */
@@ -21,6 +22,7 @@ const MainPage: React.FC<MainPageProps> = (
       <MidSection />
       <ServicesSection />
       <Footer />
+      <CookieBanner />
     </div>
   );
 };

@@ -22,7 +22,7 @@ const WA_Contact: React.FC<WA_ContactProps> = (
   };
 
   return (
-    <div className="sticky top-0 w-full bg-stone-950/50 backdrop-blur-sm p-2 ">
+    <div className=" sticky top-0 w-full bg-stone-950/50 backdrop-blur-sm p-2 z-10">
       <div className="flex flex-row justify-between py-2 px-4">
         <div
           onClick={handleScrollToTopSection}

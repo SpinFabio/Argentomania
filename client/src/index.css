@@ -1,1 +1,19 @@
 @import "tailwindcss";
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0c0a09 ;
+    border-radius: 10px;
+    padding: 2px; /* Non funziona, meglio usare border */
+  }
+::-webkit-scrollbar-thumb {
+    background: #222;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    background-clip: content-box;
+  }
+
+  
