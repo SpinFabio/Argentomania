@@ -1,5 +1,7 @@
 import React from "react";
 import { WA_LINK } from "../config/config";
+import WAimage from "./../assets/WA-top.png";
+import AMimage from "./../assets/AM-Favicon.png"
 
 interface WA_ContactProps {
   /* propName: propType */
@@ -28,7 +30,7 @@ const WA_Contact: React.FC<WA_ContactProps> = (
           onClick={handleScrollToTopSection}
           className="flex flex-row justify-center items-center"
         >
-          <img className="size-10 md:size-14 mr-2" src="/src/assets/AM-Favicon.png" />
+          <img className="size-10 md:size-14 mr-2" src={AMimage} />
           <div className="flex flex-col w-20 md:w-40 justify-center  items-center">
             <p>di Ornella Gramaglia</p>
           </div>
@@ -41,7 +43,7 @@ const WA_Contact: React.FC<WA_ContactProps> = (
         >
           <img
             className="size-8 p-1 mr-1"
-            src="/src/assets/WA-top.png"
+            src={WAimage}
             alt="icona whatsapp"
           />
           <p className="font-bold pr-3">Contattaci ora!</p>

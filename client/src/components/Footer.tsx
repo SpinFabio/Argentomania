@@ -11,6 +11,12 @@ import {
   WA_LINK,
 } from "../config/config";
 import { Link } from "react-router-dom";
+import AMFullLogo from "./../assets/Logo-Footer.svg"
+
+import WAImage from "./../assets/WA-icon.svg"
+import IGImage from "./../assets/IG-icon.svg"
+import FBImage from "./../assets/FB-icon.svg"
+
 
 interface FooterProps {
   /* propName: propType */
@@ -25,7 +31,7 @@ const Footer: React.FC<FooterProps> = (
     <>
       <div className="w-full bg-stone-950  mt-10 mb-10 flex flex-col md:flex-row">
         <div className="flex flex-col  border-amber-200 md:w-1/2 p-10 md:p-20">
-          <img className="p-1" src="/src/assets/Logo-Footer.svg" />
+          <img className="p-1" src={AMFullLogo} />
         </div>
         <div className=" md:w-1/2 flex flex-col justify-center items-center">
           <h2 className="pb-4 text-3xl font-bold ">
@@ -33,17 +39,17 @@ const Footer: React.FC<FooterProps> = (
           </h2>
           <div>
             <Social
-              source="/src/assets/WA-icon.svg"
+              source={WAImage}
               text="Scrivici per maggiori informazioni"
               redirect={WA_LINK}
             />
             <Social
-              source="/src/assets/FB-icon.svg"
+              source={FBImage}
               text="Scopri le nostre novità"
               redirect={FB_LINK}
             />
             <Social
-              source="/src/assets/IG-icon.svg"
+              source={IGImage}
               text="Entra nel nostro mondo"
               redirect={IG_LINK}
             />
